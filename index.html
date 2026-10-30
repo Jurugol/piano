@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr" data-theme="sombre">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Piano</title>
+    <meta name="theme-color" content="#16181d" />
+    <link rel="icon" type="image/png" href="./icone-192.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <script type="module" crossorigin src="./assets/index-CzqtS8Y3.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D-bB0XCJ.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <header class="barre">
+      <h1>Piano</h1>
+      <nav class="onglets">
+        <button class="onglet" data-ecran="ecran-accueil">Accueil <span id="badge-revisions" class="badge-revisions" hidden></span></button>
+        <button class="onglet" data-ecran="ecran-lecons">🧠 Comprendre</button>
+        <button class="onglet" data-ecran="ecran-tonalia">🎴 Tonalia</button>
+        <button class="onglet" data-ecran="ecran-bibliotheque">Bibliothèque</button>
+        <button class="onglet" data-ecran="ecran-progres">Progrès</button>
+        <button class="onglet" data-ecran="ecran-test">Test du piano</button>
+        <button class="onglet" data-ecran="ecran-reglages">Réglages</button>
+      </nav>
+      <span class="espace"></span>
+      <button id="bouton-theme" class="discret"></button>
+    </header>
+    <p id="bandeau-blocage" class="bandeau-blocage" hidden>
+      L'appli est encore ouverte ailleurs dans une ancienne version (autre onglet ou appli installée), ce qui empêche
+      d'enregistrer. Fermez les autres fenêtres de l'appli : celle-ci reprendra seule.
+    </p>
+    <p id="bandeau-dossier" class="bandeau-dossier" hidden></p>
+    <main id="ecran-accueil" class="ecran"></main>
+    <main id="ecran-bibliotheque" class="ecran" hidden></main>
+    <main id="ecran-tonalia" class="ecran tonalia" hidden></main>
+    <main id="ecran-lecons" class="ecran tonalia lecons" hidden></main>
+    <main id="ecran-revisions" class="ecran" hidden></main>
+    <main id="ecran-progres" class="ecran" hidden></main>
+    <main id="ecran-importer" class="ecran" hidden></main>
+    <main id="ecran-test" class="ecran" hidden></main>
+    <main id="ecran-reglages" class="ecran" hidden></main>
+    <main id="ecran-jeu" class="ecran jeu" hidden></main>
+  </body>
+</html>
